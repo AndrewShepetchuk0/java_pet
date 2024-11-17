@@ -122,7 +122,7 @@ public class tomadachi {
 			p.checks();
 		}
 	}
-	
+	//gonna code this thing later and tie it to the checks() module in the pet class
 	void gameover(){}
 
 }
