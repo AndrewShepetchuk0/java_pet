@@ -63,12 +63,15 @@ class pet{
 	void checks() {
 		if(hunger == 0) {
 			System.out.println("Your pet died of hunger");
+			gameover();
 		}
 		if(hapiness == 0) {
 			System.out.println("Your pet left cause it was unhappy");
+			gameover();
 		}
 		if(energy == 0) {
 			System.out.println("Your pet is sad and won't look at you anymore");
+			gameover();
 		}
 		if(hunger == 100) {
 			System.out.println("Your pet ate too much and fell asleep");
@@ -83,6 +86,7 @@ class pet{
 			energy = 10;
 		}
 	}
+	void gameover(){}
 }
 
 public class tomadachi {
