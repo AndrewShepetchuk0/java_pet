@@ -86,7 +86,10 @@ class pet{
 			energy = 10;
 		}
 	}
-	void gameover(){}
+	void gameover(){
+		System.out.println("Game over. Thanks for playing");
+		System.exit(0);
+	}
 }
 
 public class tomadachi {
