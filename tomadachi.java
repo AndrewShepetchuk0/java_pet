@@ -75,14 +75,17 @@ class pet{
 		}
 		if(hunger == 100) {
 			System.out.println("Your pet ate too much and fell asleep");
+			System.out.pritnln("It is a new day");
 			hunger = 10;
 		}
 		if(hapiness == 100) {
 			System.out.println("Your pet is spoiled");
+			System.out.pritnln("It is a new day");
 			hapiness = 10;
 		}
 		if(energy == 100) {
 			System.out.println("Your pet won't stop barking");
+			System.out.pritnln("It is a new day");
 			energy = 10;
 		}
 	}
