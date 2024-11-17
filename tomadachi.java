@@ -1,4 +1,3 @@
-package cs1;
 import java.util.*;
 
 class pet{
