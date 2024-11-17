@@ -1,13 +1,6 @@
 package cs1;
 import java.util.*;
-/*  
- *   /^ ^\
- 	/ 0 0 \
- 	V\ Y /V
-  	/ - \
- 	/    |
-	V__) ||
- */
+
 class pet{
 	Scanner in = new Scanner(System.in);
 	int hunger;
